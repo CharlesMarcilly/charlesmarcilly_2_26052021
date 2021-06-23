@@ -11,50 +11,64 @@ body{
 #bloc_page{
     max-width: 1400px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 0 15px 0 15px;
     overflow-x: hidden;
 }
 
 /*HEADER*/
     header{
         display: flex;
-        justify-content: space-between;
-        width: 100%;
+        
     }
 
     #logo{
         width:73px;
+        height:50px;
     }
 
-    nav a:hover{
-        color: #0065FC;
+    nav{
+        width:100%;
+        display:flex;
+        justify-content:flex-end;
+    }
+
+    header nav ul{
+       list-style:none;
+       display:inline-block;
+       margin-top:0;
+
+    }
+
+    header nav ul li{
+        display:inline-block;
+        margin-left:30px;
+        padding:15px;
+        font-size:0.85rem;
+        border-top:2px solid transparent;
+
+    }
+
+    header nav ul li:hover{
         border-top: 2px solid #0065FC;  
     }
 
-    #ul_head{
-        display: flex;
-        list-style-type: none;
-        margin-right: 50px;
-    }
-
-    #hebergement{
-        padding-right: 55px;
+    header nav ul li a{
+        text-decoration:none;
+        color:#000000;
 
     }
 
-    #activite{
-        padding-right: 55px;
+    header nav ul li:last-child a{
+
+        color:#0065Fc;
+        font-weight:bold;
     }
 
-    header a{
-        text-decoration: none;
-        color: black;
-    }
     
 
-    /*SECTION 1*/
+    /*SECTION 1 FILTRES*/
 section h1{
-    font-size: 20px;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -218,9 +232,7 @@ section h1{
     height: 90px;
 }
 
-#cannebiere{
-    
-}
+
 
 /*ASIDE*/
 #aside{
