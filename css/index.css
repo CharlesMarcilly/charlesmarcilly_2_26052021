@@ -1,7 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Raleway', sans-serif;
-    margin-left: 45px;
-    margin-top: 45px;
+    padding: 0;
+    margin: 0;
+}
+
+#bloc_page{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 15px;
+    overflow-x: hidden;
 }
 
 /*HEADER*/
@@ -15,7 +26,11 @@ body{
         width:73px;
     }
 
-    
+    nav a:hover{
+        color: #0065FC;
+        border-top: 2px solid #0065FC;  
+    }
+
     #ul_head{
         display: flex;
         list-style-type: none;
@@ -24,6 +39,7 @@ body{
 
     #hebergement{
         padding-right: 55px;
+
     }
 
     #activite{
@@ -32,6 +48,7 @@ body{
 
     header a{
         text-decoration: none;
+        color: black;
     }
     
 
@@ -47,32 +64,36 @@ section h1{
 }
 
 #search{
-    width: 170px;
-    height:50px;
-    font-weight: 900;
+    height:35px;
+    font-weight: bold;
     outline: none;
     border: solid 1.5px;
     border-color: #F2F2F2;
+    padding-left: 10px;
 }
 
-#recherche{
-    width: 135px;
-    height: 50px;
+#btn_recherche{
+    height: 35px;
     background: #0065FC;
     border-radius: 0 11px 11px 0px;
     border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#block_barre span{
+    height: 35px;
+    background: #F2F2F2;
+    border-radius: 11px 0px 0px 11px;
+    padding: 10px;
+    text-align:center;
+    padding-right: 9px;
 }
 
 ::placeholder{
-   padding-left: 10px;
-}
-
-.fas{
-    width: 40px;
-    height: 46px;
-    border: solid #F2F2F2;
-    background: #F2F2F2;
-    border-radius: 11px 0px 0px 11px;
+   color: black;
+   font-size: 0.7rem;
 }
 
 #block_barre{
@@ -80,9 +101,186 @@ section h1{
     justify-content: flex-start;
 }
 
+/*TOTALITE DES FILTRES*/
+#filtres a:hover{
+    color: #0065FC;
+}
+
+#filtres{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
+#filtres span{
+    padding: 9px;
+    margin-right: 20px;
+}
+
+#monnet{
+    display: flex;
+    height: 35px;
+    margin-right: 20px;
+    border: solid #F2F2F2 2px;
+    border-radius:30px 30px 30px 30px;
+}
+
+#famille{
+    display: flex;
+    height: 35px;
+    margin-right: 20px;
+    border: solid #F2F2F2 2px;
+    border-radius:30px 30px 30px 30px;
+}
+
+#coeur{
+    display: flex;
+    height: 35px;
+    margin-right: 20px;
+    border: solid #F2F2F2 2px;
+    border-radius:30px 30px 30px 30px;
+}
+
+#animaux{
+    display: flex;
+    height: 35px;
+    margin-right: 20px;
+    border: solid #F2F2F2 2px;
+    border-radius:35px 35px 35px 35px;
+}
+
+/*MOTS FILTRES*/
+#mot_filtres{
+    font-size: 0.8rem;
+}
+
+#mot{
+     font-size: 0.8rem;
+     font-weight: bold;
+     padding-left: 10px;
+     padding-right: 15px;
+     padding-top: 8px;
+}
+
+
+/*ICONES FILTRES*/
+#icone_eco{
+    padding: 10px 8px;
+    background-color: rgba(214, 231, 255);
+    border: solid 0,8px;
+    border-radius: 35px;
+    margin-left: -1.5px;
+}
+
+#icone_famille{
+    padding: 10px 8px;
+    background-color: rgba(214, 231, 255);
+    border: solid 0,8px;
+    border-radius: 35px;
+    margin-left: -1.5px;
+}
+
+#icone_coeur{
+    padding: 10px 8px;
+    background-color: rgba(214, 231, 255);
+    border: solid 0,8px;
+    border-radius: 35px;
+    margin-left: -1.5px;
+}
+
+#icone_chien{
+    padding: 10px 8px;
+    background-color: rgba(214, 231, 255);
+    border: solid 0,8px;
+    border-radius: 35px;
+    margin-left: -1.5px;
+}
+
+
+
+/*SECTION 2*/
+#section_2{
+    width: 70%;
+}
+
+#ul_section_1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+    background: #F2F2F2;
+}
+
+#img_section_2{
+    width: 150px;
+    height: 90px;
+}
+
+#cannebiere{
+    
+}
+
+/*ASIDE*/
+#aside{
+    display: flex;
+    width: 30px;
+}
+
+#ul_aside{
+    list-style-type: none;
+}
+#img_aside{
+    width: 100px;
+    height: 100px;
+}
+
+
+/*SECTION 3*/
+#section_3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+/*IMG SECTION 3*/
+#img_section_3{
+    width: 180px;
+    height: 200px;
+}
+
+#img_pomegue{
+    width: 180px;
+    height: 110px;
+    object-fit: cover;
+}
+
+#img_frioul{
+    width: 180px;
+    height: 60px;
+    object-fit: cover;
+}
+
+#img_notre_dame{
+    width: 180px;
+    height: 85px;
+    object-fit: cover;
+}
+
+#img_longchamp{
+    width: 180px;
+    height: 95px;
+    object-fit: cover;
+}
+
+
 /*FOOTER*/
 footer a{
     color: black;
     text-decoration: none;
     list-style-type: none;
 }
+
