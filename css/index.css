@@ -66,16 +66,18 @@ body{
 
     
 
-    /*SECTION 1 FILTRES*/
+    /*SECTION TITRE ET BARRE DE RECHERCHE*/
 section h1{
     font-size: 14px;
     font-weight: bold;
 }
 
 #premier_para{
-    margin-top: -15px;
-    font-size: 14px;
+    margin-top: -5px;
+    font-size: 0.8rem;
 }
+
+
 
 #search{
     height:35px;
@@ -115,106 +117,243 @@ section h1{
     justify-content: flex-start;
 }
 
-/*TOTALITE DES FILTRES*/
-#filtres a:hover{
+
+/*FILTRES 1ERE PARTIE*/
+.filtres{
+    padding:0px 14px 10px 0px;
+    border:2px solid #F2F2F2;
+    border-left: none;
+    display:inline-block;
+    border-radius:16px;
+    height:31px;
+    margin-left:20px;
+    cursor: pointer;
+  
+}
+.filtres span:first-child{
+     height:29px;
+     width:29px;
+     bottom: 1px;
+     background: rgb( 213, 230, 250);
+     border-radius:16px;
+     position:relative;
+  }
+
+.filtres span{
+    display:inline-block;
+    margin-bottom: -10px;
+}
+
+
+.filtres span:first-child i{
+    width:16px;
+    height:16px;
+    top:24%;
+    left:15%;
+    position:absolute;
     color: #0065FC;
 }
 
-#filtres{
-    display: flex;
-    justify-content: flex-start;
-    list-style-type: none;
-    font-weight: bold;
-    font-size: 0.7em;
+
+.filtres span:last-child{ 
+   margin-left:5px;
+   font-size: 0.8rem;
 }
 
-#filtres span{
-    padding: 9px;
-    margin-right: 20px;
+
+.filtres span:first-child:hover i{
+    color: blue;
 }
 
-#monnet{
-    display: flex;
-    height: 35px;
-    margin-right: 20px;
-    border: solid #F2F2F2 2px;
-    border-radius:30px 30px 30px 30px;
+.filtres span:last-child:hover{
+    color: blue;
 }
 
-#famille{
-    display: flex;
-    height: 35px;
-    margin-right: 20px;
-    border: solid #F2F2F2 2px;
-    border-radius:30px 30px 30px 30px;
-}
 
-#coeur{
-    display: flex;
-    height: 35px;
-    margin-right: 20px;
-    border: solid #F2F2F2 2px;
-    border-radius:30px 30px 30px 30px;
-}
-
-#animaux{
-    display: flex;
-    height: 35px;
-    margin-right: 20px;
-    border: solid #F2F2F2 2px;
-    border-radius:35px 35px 35px 35px;
-}
-
-/*MOTS FILTRES*/
 #mot_filtres{
     font-size: 0.8rem;
-}
-
-#mot{
-     font-size: 0.8rem;
-     font-weight: bold;
-     padding-left: 10px;
-     padding-right: 15px;
-     padding-top: 8px;
+    font-weight: bold;
 }
 
 
-/*ICONES FILTRES*/
-#icone_eco{
-    padding: 10px 8px;
-    background-color: rgba(214, 231, 255);
-    border: solid 0,8px;
-    border-radius: 35px;
-    margin-left: -1.5px;
+/*FILTRES 2EME PARTIE*/
+.famille{
+    padding:0px 14px 10px 0px;
+    border:2px solid #F2F2F2;
+    border-left: none;
+    display:inline-block;
+    border-radius:16px;
+    height:31px;
+    margin-left:20px;
+    cursor: pointer;
+  
 }
+.famille span:first-child{
+     height:29px;
+     width:29px;
+     bottom: 1px;
+     background: rgb( 213, 230, 250);
+     border-radius:16px;
+     position:relative;
+  }
 
-#icone_famille{
-    padding: 10px 8px;
-    background-color: rgba(214, 231, 255);
-    border: solid 0,8px;
-    border-radius: 35px;
-    margin-left: -1.5px;
-}
-
-#icone_coeur{
-    padding: 10px 8px;
-    background-color: rgba(214, 231, 255);
-    border: solid 0,8px;
-    border-radius: 35px;
-    margin-left: -1.5px;
-}
-
-#icone_chien{
-    padding: 10px 8px;
-    background-color: rgba(214, 231, 255);
-    border: solid 0,8px;
-    border-radius: 35px;
-    margin-left: -1.5px;
+.famille span{
+    display:inline-block;
+    margin-bottom: -10px;
 }
 
 
+.famille span:first-child i{
+    width:16px;
+    height:16px;
+    top:24%;
+    left:28%;
+    position:absolute;
+    color: #0065FC;
+}
 
-/*SECTION 2*/
+
+.famille span:last-child{ 
+   margin-left:5px;
+   font-size: 0.8rem;
+}
+
+
+.famille span:first-child:hover i{
+    color: blue;
+}
+
+.famille span:last-child:hover{
+    color: blue;
+}
+
+
+/*FILTRES 3EME PARTIE*/
+.coeur{
+    padding:0px 14px 10px 0px;
+    border:2px solid #F2F2F2;
+    border-left: none;
+    display:inline-block;
+    border-radius:16px;
+    height:31px;
+    margin-left:20px;
+    cursor: pointer;
+  
+}
+.coeur span:first-child{
+     height:29px;
+     width:29px;
+     bottom: 1px;
+     background: rgb( 213, 230, 250);
+     border-radius:16px;
+     position:relative;
+  }
+
+.coeur span{
+    display:inline-block;
+    margin-bottom: -10px;
+}
+
+
+.coeur span:first-child i{
+    width:16px;
+    height:16px;
+    top:24%;
+    left:23%;
+    position:absolute;
+    color: #0065FC;
+}
+
+
+.coeur span:last-child{ 
+   margin-left:5px;
+   font-size: 0.8rem;
+}
+
+
+.coeur span:first-child:hover i{
+    color: blue;
+}
+
+.coeur span:last-child:hover{
+    color: blue;
+}
+
+
+/*FILTES 4EME PARTIE*/
+.animaux{
+    padding:0px 14px 10px 0px;
+    border:2px solid #F2F2F2;
+    border-left: none;
+    display:inline-block;
+    border-radius:16px;
+    height:31px;
+    margin-left:20px;
+    cursor: pointer;
+  
+}
+
+
+.animaux span:first-child{
+     height:29px;
+     width:29px;
+     bottom: 1px;
+     background: rgb( 213, 230, 250);
+     border-radius:16px;
+     position:relative;
+  }
+
+
+.animaux span{
+    display:inline-block;
+    margin-bottom: -10px;
+}
+
+
+.animaux span:first-child i{
+    width:16px;
+    height:16px;
+    top:20%;
+    left:20%;
+    position:absolute;
+    color: #0065FC;
+}
+
+
+.animaux span:last-child{ 
+   margin-left:5px;
+   font-size: 0.8rem;
+}
+
+
+.animaux span:first-child:hover i{
+    color: blue;
+}
+
+
+.animaux span:last-child:hover{
+    color: blue;
+}
+
+
+.icone_info i{
+   border-radius: 18px;
+   color: white;
+   background: #0065FC;
+}
+
+.icone_info:last-child{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: grey;
+}
+
+
+
+
+
+
+/*SECTION 2 HEBERGEMENT A MARSEILLE*/
 #section_2{
     width: 70%;
 }
