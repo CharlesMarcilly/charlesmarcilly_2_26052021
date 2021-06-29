@@ -290,7 +290,6 @@ section h1{
     height:31px;
     margin-left:20px;
     cursor: pointer;
-  
 }
 
 
@@ -336,6 +335,7 @@ section h1{
 }
 
 
+/*APRES FILTRES*/
 .icone_info i{
    border-radius: 18px;
    color: white;
@@ -356,10 +356,6 @@ section h1{
     width:100%;
 }
 
-
-.section_hebergements h1{
-    padding-left: 3px;
-}
 
 .section_hebergements ul{
     list-style-type: none;
@@ -414,8 +410,6 @@ section h1{
 
 
 .aside ul{
-    display: flex;
-    flex-direction: column;
     padding-left: 10px;
     padding-right: 3px;
     height: 91%;
@@ -436,7 +430,7 @@ section h1{
 .aside span li{
     display: flex;
     width: 248px;
-    height: 116px;
+    height: 115.1px;
     padding-right: 15px;
     background-color: white;
 }
@@ -504,46 +498,108 @@ section h1{
 
 
 /*SECTION ACTIVITES*/
-#section_3{
+.section_activites{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    width:100%;
 }
+
+
+.section_activites ul{
+    list-style-type: none;
+    position: relative;
+    width: 100%;
+    padding-left: 0px;
+}
+
+.section_activites li{
+    border-radius: 17px;
+    background-color: white;
+    display: inline-block;
+    box-shadow: 1px 1px 4px 4px #F2F2F2;
+    margin-right: 15px;
+}
+
+
+.section_activites h3{
+    padding-left: 10px;
+}
+
+#pomegue{
+    position: absolute;
+}
+
+#notre_dame{
+    position: absolute;
+}
+
+
+
+.section_activites h3{
+    font-size: 0.8rem;
+}
+
+
+.section_activites img{
+    border-radius: 17px 17px 0 0;
+}
+
 
 
 
 /*IMG SECTION ACTIVITE*/
-#img_section_3{
-    width: 180px;
-    height: 200px;
+#img_port_calanque{
+    width: 260px;
+    height: 350px;
+    object-fit: cover;
 }
 
+
 #img_pomegue{
-    width: 180px;
+    width: 260px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+#img_frioul{
+    width: 260px;
     height: 110px;
     object-fit: cover;
 }
 
-#img_frioul{
-    width: 180px;
-    height: 60px;
-    object-fit: cover;
-}
 
 #img_notre_dame{
-    width: 180px;
-    height: 85px;
+    width: 260px;
+    height: 120px;
     object-fit: cover;
 }
 
 #img_longchamp{
-    width: 180px;
-    height: 95px;
+    width: 260px;
+    height: 150px;
     object-fit: cover;
 }
 
 
+
 /*FOOTER*/
+.footer{
+    display: flex;
+    width: 102.5%;
+    margin-left: -13.5px;
+    background-color: #F2F2F2;
+}
+
+.footer ul{
+    margin-right: 100px;
+    padding-left: 40px;
+}
+
+footer li{
+    padding-top: 10px;
+    font-size: 0.8rem;
+}
+
 footer a{
     color: black;
     text-decoration: none;
