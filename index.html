@@ -4,6 +4,8 @@
         <meta charset="utf-8" />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="css/tablette.css"/>
+        <link rel="stylesheet" href="css/mobile.css"/>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
         <title>Reservia</title>
     </head>
@@ -27,6 +29,9 @@
 
     <!--SECTION 1 BARRE DE RECHERCHE ET FILTRES-->
     <section>
+        
+        <!--BARRE DE RECHERCHE-->
+
            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
            <p id="premier_para">En plein centre ville ou en pleine nature</p>
         
@@ -41,10 +46,11 @@
 
            
            <!--FILTRES 1ERE PARTIE-->
+           <div id="filtres">
            <span id="mot_filtres">Filtres</span>
 
 
-           <div class="filtres">
+           <div class="filtres_eco">
 
            <span>
                <i class="fas fa-money-bill-wave"></i>
@@ -111,7 +117,7 @@
                </span>
             </div>
           
-           
+        </div>
          </section>
     
 
@@ -119,8 +125,8 @@
     <section class="section_hebergements">
 
         <span>
-        <ul>
-            <h1 id="ancre_hebergement" class="hebergements">
+        <ul id="premiere_section">
+            <h1 id="ancre_hebergement">
                 Hébergements à Marseille
             </h1>
 
@@ -135,7 +141,7 @@
         </li>
     
 
-        <li>
+        <li id="hotel_port">
             <a href=""><img id="img_section_2" src="img/chambres/hotel_port.jpg" alt="chambre" class="section_chambres">
             </a>
             <h3>Hotêl du port</h3>
@@ -204,6 +210,7 @@
 
     </ul>
     </span>
+
     
 
         <!--ASIDE-->
@@ -211,7 +218,7 @@
 
             <span>
 
-            <ul>
+            <ul id="ul_aside">
 
             <h1 id="titre_aside">Les plus populaires <i class="fas fa-chart-line"></i></h1>
 
@@ -294,7 +301,7 @@
 
     
 
-        <span class="pomegue_frioul">
+        <span>
         <li id="pomegue">
             <a href="">
 
@@ -308,7 +315,7 @@
       
 
 
-          <span class="pomegue_frioul">
+          <span>
         <li id="frioul">
             <a href="">
                 

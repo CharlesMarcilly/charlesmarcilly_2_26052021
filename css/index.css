@@ -74,6 +74,7 @@ section h1{
 
 #premier_para{
     margin-top: -5px;
+    padding-left: 0%;
     font-size: 0.8rem;
 }
 
@@ -119,7 +120,14 @@ section h1{
 
 
 /*FILTRES 1ERE PARTIE*/
-.filtres{
+#mot_filtres{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+
+
+.filtres_eco{
     padding:0px 14px 10px 0px;
     border:2px solid #F2F2F2;
     border-left: none;
@@ -130,7 +138,7 @@ section h1{
     cursor: pointer;
   
 }
-.filtres span:first-child{
+.filtres_eco span:first-child{
      height:29px;
      width:29px;
      bottom: 1px;
@@ -139,13 +147,13 @@ section h1{
      position:relative;
   }
 
-.filtres span{
+.filtres_eco span{
     display:inline-block;
     margin-bottom: -10px;
 }
 
 
-.filtres span:first-child i{
+.filtres_eco span:first-child i{
     width:16px;
     height:16px;
     top:24%;
@@ -155,25 +163,21 @@ section h1{
 }
 
 
-.filtres span:last-child{ 
+.filtres_eco span:last-child{ 
    margin-left:5px;
    font-size: 0.8rem;
 }
 
 
-.filtres span:first-child:hover i{
+.filtres_eco span:first-child:hover i{
     color: blue;
 }
 
-.filtres span:last-child:hover{
+.filtres_eco span:last-child:hover{
     color: blue;
 }
 
 
-#mot_filtres{
-    font-size: 0.8rem;
-    font-weight: bold;
-}
 
 
 /*FILTRES 2EME PARTIE*/
@@ -369,7 +373,7 @@ section h1{
 
 .section_hebergements span li{
     display: inline-block;
-    width: 250px;
+    width: 250px;;
     height: 170px;
     margin-right: 10px;
     padding-left:3px;
@@ -378,6 +382,7 @@ section h1{
     border-radius: 17px;
     margin-bottom: 20px;
     background-color: white;
+    cursor:pointer;
 }
 
 #img_section_2{
@@ -507,7 +512,6 @@ section h1{
 .section_activites ul{
     list-style-type: none;
     position: relative;
-    width: 100%;
     padding-left: 0px;
 }
 
@@ -516,7 +520,7 @@ section h1{
     background-color: white;
     display: inline-block;
     box-shadow: 1px 1px 4px 4px #F2F2F2;
-    margin-right: 15px;
+    margin-right: 16px;
 }
 
 
@@ -592,7 +596,7 @@ section h1{
 
 .footer ul{
     margin-right: 100px;
-    padding-left: 40px;
+    padding-left: 15px;
 }
 
 footer li{

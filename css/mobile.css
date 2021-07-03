@@ -1,0 +1,74 @@
+@media only screen and (max-width: 767px){
+
+    /*HEADER*/
+    header nav ul{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+    header nav ul li{
+        padding:1px;
+    }
+
+header nav ul li:hover{
+    border:none;
+}
+
+
+/*FILTRES*/
+#filtres{
+    margin-top: 10px;
+    padding-right:20px;  
+    height: 70px;  
+}
+
+
+.coeur{
+    position: absolute;
+    margin: -32px;
+    margin-left: 75px;
+    
+}
+
+.animaux{
+    margin-top: 10px;  
+}
+
+
+/*SECTION HEBERGEMENTS*/
+#premiere_section{
+    background-color: yellow;
+    padding-left: 0%;
+    width: 142%;
+    height: 740px;
+}
+
+
+#premiere_section li{
+    width: 152px;
+    height: 190px;
+    background-color: blue;
+}
+
+#premiere_section li h3+p{
+    font-size: 0.6rem;
+}
+
+#premiere_section img{
+    width: 146px;
+}
+
+
+.aside{
+    background-color: yellow;
+}
+
+
+
+#ul_aside{
+    background-color: red;
+    height: 240px;
+}
+
+}

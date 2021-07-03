@@ -1,0 +1,91 @@
+@media only screen and (min-width:768px) and (max-width: 1024px){
+
+    /*HEBERGEMENTS*/
+        .section_hebergements{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .section_hebergements ul li{
+            margin-right: 25px;
+        }
+
+        .section_hebergements ul Li{
+            width: 330px;
+            height: 230px;
+                }
+
+        #img_section_2{
+            width: 324px;
+            height: 150px;
+        }
+
+
+        /*ASIDE*/
+        #titre_aside{
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        #titre_aside i{
+            margin-right: 5px;
+        }
+
+        .aside{
+            width: 100%;
+            margin: 0%;
+        }
+
+        #ul_aside{
+            width: 100%;
+        }
+
+
+        #ul_aside li{
+            width: 98.6%;
+        }
+
+        #ul_aside li img{
+            width:  335px;
+            height: 98.5%;
+            object-fit: cover;
+        }
+
+
+        /*ACTIVITES A MARSEILLE*/
+        .section_activites li{
+            margin: 2%;
+        }
+
+        #img_port_calanque{
+            width: 320px;
+        }
+
+        #img_pomegue{
+            width: 350px;
+            object-fit: cover;
+        }
+        
+        
+        #img_frioul{
+            width: 350px;
+            object-fit: cover;
+        }
+        
+        
+        #img_notre_dame{
+            width: 350px;
+            object-fit: cover;
+        }
+        
+        #img_longchamp{
+            width: 350px;
+            object-fit: cover;
+        }
+
+        /*FOOTER*/
+        .footer{
+            width:  104%;
+        }
+}
