@@ -521,6 +521,7 @@ section h1{
     display: inline-block;
     box-shadow: 1px 1px 4px 4px #F2F2F2;
     margin-right: 16px;
+    cursor:pointer;
 }
 
 

@@ -8,12 +8,12 @@
     }
 
     header nav ul li{
-        padding:1px;
+        padding: 1px;
     }
 
-header nav ul li:hover{
+    header nav ul li:hover{
     border:none;
-}
+    }
 
 
 /*FILTRES*/
@@ -37,38 +37,130 @@ header nav ul li:hover{
 
 
 /*SECTION HEBERGEMENTS*/
-#premiere_section{
-    background-color: yellow;
-    padding-left: 0%;
-    width: 142%;
-    height: 740px;
+.section_hebergements{
+    display: flex;
+    flex-direction: column;
+}
+
+    #premiere_partie li{
+        width: 92%;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+
+    #img_section_2{
+        width: 276px;
+        height: 100px;
+    }
+
+    #affiche_plus{
+        padding-left: 0%;
+        margin-top: 10px;
+    }
+
+    /*ASIDE*/
+    #titre_aside{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 4%;
+        padding-right: 10px;
+    }
+
+
+    .aside{
+        width: 100%;
+        margin: 0%;
+    }
+
+
+    #ul_aside li{
+        width: 92%;
+        height: 140px;
+        margin-left: 4%;
+        margin-bottom: 15px;
+    }
+
+
+    #ul_aside li img{
+        width:  150px;
+        height: 134px;
+        object-fit: cover;
+    }
+
+
+
+/*ACTIVITES A MARSEILLE*/
+.section_activites ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 
-#premiere_section li{
-    width: 152px;
-    height: 190px;
-    background-color: blue;
-}
-
-#premiere_section li h3+p{
-    font-size: 0.6rem;
-}
-
-#premiere_section img{
-    width: 146px;
-}
-
-
-.aside{
-    background-color: yellow;
+.section_activites h1{
+    padding-left: 23px;
 }
 
 
 
-#ul_aside{
-    background-color: red;
-    height: 240px;
+.section_activites li{
+    margin: 6%;
+    margin-bottom: 10px;
 }
 
+
+#pomegue{
+    position: relative;
+}
+
+#notre_dame{
+    position: relative;
+}
+
+
+#img_port_calanque{
+    width: 293px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#img_pomegue{
+    width: 293px;
+    height: 115px;
+    object-fit: cover;
+}
+
+#img_frioul{
+    width: 293px;
+    height: 115px;
+    object-fit: cover;
+}
+
+
+#img_notre_dame{
+    width: 293px;
+    height: 115px;
+    object-fit: cover;
+}
+
+#img_longchamp{
+    width: 293px;
+    height: 115px;
+    object-fit: cover;
+}
+
+
+ /*FOOTER*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    width: 100%;
+   
+}
+
+.footer ul{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 }
