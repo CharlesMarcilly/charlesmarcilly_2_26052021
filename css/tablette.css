@@ -37,18 +37,15 @@
             margin: 0%;
         }
 
-        #ul_aside{
-            width: 100%;
-        }
-
 
         #ul_aside li{
             width: 98.6%;
+            height: 225px;
         }
 
         #ul_aside li img{
             width:  335px;
-            height: 98.5%;
+            height: 218px;
             object-fit: cover;
         }
 
@@ -64,23 +61,27 @@
 
         #img_pomegue{
             width: 350px;
+            height: 140px;
             object-fit: cover;
         }
         
         
         #img_frioul{
             width: 350px;
+            height: 140px;
             object-fit: cover;
         }
         
         
         #img_notre_dame{
             width: 350px;
+            height: 140px;
             object-fit: cover;
         }
         
         #img_longchamp{
             width: 350px;
+            height: 140px;
             object-fit: cover;
         }
 
