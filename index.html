@@ -19,9 +19,9 @@
                 <img id="logo" src="./img/logo.png" alt="logo"/>
                 <nav>
                <ul>
-                     <li><a href="#ancre_hebergement">Hébergements</a></li>
-                     <li><a href="#ancre_activite">Activités</a></li>
-                     <li><a href="" id="inscrire">S'inscrire</a></li>
+                     <li id="hebergements"><a href="#ancre_hebergement">Hébergements</a></li>
+                     <li id="activites"><a href="#ancre_activite">Activités</a></li>
+                     <li id="sinscrire"><a href="">S'inscrire</a></li>
                </ul>
            </nav>
         </header>
@@ -36,12 +36,16 @@
            <p id="premier_para">En plein centre ville ou en pleine nature</p>
         
            <div id="block_barre">
+
              <span>
                  <i class="fas fa-map-marker-alt"></i>
              </span>
 
              <input type="search" id="search" placeholder="Marseille, France"/>
-             <input type="button" id="btn_recherche" value="Rechercher">
+
+             <input type="button" id="btn_recherche" value="Rechercher"> 
+             <span class="icone_recherche"><i class="fas fa-search"></i></span>
+                
            </div><br>
 
            
@@ -124,28 +128,30 @@
          <!--section 2 HEBERGEMENTS-->
     <section class="section_hebergements">
 
-        <span>
+     
         <ul id="premiere_partie">
             <h1 id="ancre_hebergement">
                 Hébergements à Marseille
             </h1>
 
         <li><a href=""><img id="img_section_2" src="img/chambres/cannebiere.jpg" alt="chambre" class="section_chambres">
-        </a>
+        
             <h3>Auberge la Cannebière</h3>
             <p>Nuit à partir de 25€</p>
+            </a>
 
             <span class="etoile_hebergements">
             <span class="etoile_1"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><i class="fas fa-star"></i>
-            </span>
+           
         </li>
     
 
         <li id="hotel_port">
             <a href=""><img id="img_section_2" src="img/chambres/hotel_port.jpg" alt="chambre" class="section_chambres">
-            </a>
+            
             <h3>Hotêl du port</h3>
             <p>Nuit à partir de 52€</p>
+            </a>
 
             <span class="etoile_hebergements">
             <span class="etoile_2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
@@ -156,9 +162,10 @@
     
         <li>
             <a href=""><img id="img_section_2" src="img/chambres/les_mouettes.jpg" alt="chambre" class="section_chambres">
-            </a>
+            
             <h3>Hotêl les mouettes</h3>
             <p>Nuit à partir de 76€</p>
+            </a>
 
             <span class="etoile_hebergements">
             <span class="etoile_3">
@@ -169,9 +176,10 @@
     
         <li>
             <a href=""><img id="img_section_2" src="img/chambres/hotel_mer.jpg" alt="chambre" class="section_chambres">
-            </a>
+        
             <h3>Hotêl de la mer</h3>
             <p>Nuit à partir de 46€</p>
+            </a>
 
             <span class="etoile_hebergements">
             <span class="etoile_4">
@@ -182,9 +190,10 @@
     
         <li>
             <a href=""><img id="img_section_2" src="img/chambres/auberge_panier.jpg" alt="chambre" class="section_chambres">
-            </a>
+
             <h3>Auberge le Panier</h3> 
             <p>Nuit à partir de 23€</p>
+            </a>
 
             <span class="etoile_hebergements">
             <span class="etoile_5">
@@ -195,9 +204,10 @@
 
         <li>
             <a href=""><img id="img_section_2" src="img/chambres/amina.jpg" alt="chambre" class="section_chambres">
-            </a>
+            
             <h3>Hotêl chez Amina</h3>
             <p>Nuit à partir de 96€ </p>
+            </a>
 
             <span class="etoile_hebergements">
             <span class="etoile_6">
@@ -292,8 +302,9 @@
         
                 <img id="img_port_calanque" src="img/activités/vieuxport.jpg" alt="Activités">
            
-            </a>
+            
           <h3>Vieux Port</h3> 
+          </a>
         </li>
     
 
@@ -303,9 +314,9 @@
 
                 <img id="img_pomegue" src="img/activités/pomegue.jpg" alt="Pomègues" alt="Activités">
                 
-            </a>
             
           <h3>Fort de Pomègues</h3>
+          </a>
           </li>
        
       
@@ -315,9 +326,8 @@
                 
                 <img id="img_frioul" src="img/activités/frioul.jpg" alt="Activités">
            
-            </a>
-
           <h3>Îles du Frioul</h3>
+          </a>
           </li>         
 
     
@@ -327,10 +337,9 @@
 
                 
                 <img id="img_port_calanque" src="img/activités/calanques.jpg" alt="Activités">
-        
-            </a>
 
           <h3>Parc National des Calanques</h3>
+          </a>
           </li>
 
     
@@ -339,10 +348,9 @@
             <a href="">
                
                 <img id="img_notre_dame" src="img/activités/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Activités">
-                
-            </a>
 
           <h3>Notre-Dame-de-la-Garde</h3>
+          </a>
           </li>
           
 
@@ -351,10 +359,9 @@
             <a href="">
                 
                 <img id="img_longchamp" src="img/activités/longchamp.jpg" alt="Activités">
-             
-            </a>
 
           <h3>Parc Longchamp</h3>
+          </a>
          </li>
          
 

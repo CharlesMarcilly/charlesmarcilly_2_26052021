@@ -1,19 +1,109 @@
 @media only screen and (max-width: 767px){
+   #bloc_page{
+        max-width: 767px;
+        margin: 0 auto;
+        padding: 0 15px 0 15px;
+        overflow-x:hidden;
+    }
 
     /*HEADER*/
+    header{
+        display: inline-block;
+    }
     header nav ul{
-        display: flex;
-        flex-direction: column;
-        margin-top: 5px;
+        margin-top: 10px;
+        position: relative;
     }
 
     header nav ul li{
-        padding: 1px;
+        position: absolute;
+    }
+    
+    #sinscrire{
+        left: 160px;
+        bottom: 20px;
+        padding-bottom: 5px;
+        border: none;
     }
 
-    header nav ul li:hover{
-    border:none;
+    #hebergements{
+        margin-left: -50px;
+        padding-top: 0px;
     }
+
+    #activites{
+        margin-left: 130px;
+        padding-top: 0px;
+    }
+
+
+    #hebergements,#activites{
+        padding-bottom: 5px;
+        border-bottom: solid #F2F2F2;
+    }
+
+
+
+    #hebergements:hover{
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+    }
+        #activites:hover{
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+    }
+
+
+
+section h1{
+    align-content: center;
+}
+
+/*BARRE DE RECHERCHE*/
+    #search{
+        height:35px;
+        font-weight: bold;
+        outline: none;
+        border: solid 1.5px;
+        border-color: #F2F2F2;
+        padding-left: 10px;
+        border-right: 0px;
+    }
+
+    
+    #block_barre span{
+        height: 35px;
+        background: #F2F2F2;
+        border-radius: 11px 0px 0px 11px;
+        padding: 10px;
+        text-align:center;
+        padding-right: 9px;
+    }
+
+
+    #btn_recherche{
+        display:none;
+   }
+
+
+   .icone_recherche{
+    width:34px;
+    color: white;
+    display:inline-block;
+   }
+
+   
+    
+    ::placeholder{
+       color: black;
+       font-size: 0.7rem;
+    }
+    
+    #block_barre{
+        display: flex;
+        justify-content: flex-start;
+    }
+
 
 
 /*FILTRES*/
@@ -119,32 +209,32 @@
 
 
 #img_port_calanque{
-    width: 293px;
+    width: 255px;
     height: 100px;
     object-fit: cover;
 }
 
 #img_pomegue{
-    width: 293px;
+    width: 255px;
     height: 115px;
     object-fit: cover;
 }
 
 #img_frioul{
-    width: 293px;
+    width: 255px;
     height: 115px;
     object-fit: cover;
 }
 
 
 #img_notre_dame{
-    width: 293px;
+    width: 255px;
     height: 115px;
     object-fit: cover;
 }
 
 #img_longchamp{
-    width: 293px;
+    width: 255px;
     height: 115px;
     object-fit: cover;
 }
