@@ -161,10 +161,8 @@ body{
 
 
 .filtres_eco span:first-child i{
-    width:16px;
-    height:16px;
-    top:24%;
-    left:15%;
+    top:29%;
+    left:22%;
     position:absolute;
     color: #0065FC;
 }
@@ -196,9 +194,10 @@ body{
     border-radius:16px;
     height:31px;
     margin-left:20px;
-    cursor: pointer;
-  
+    cursor: pointer; 
 }
+
+
 .famille span:first-child{
      height:29px;
      width:29px;
@@ -208,6 +207,7 @@ body{
      position:relative;
   }
 
+
 .famille span{
     display:inline-block;
     margin-bottom: -10px;
@@ -215,10 +215,8 @@ body{
 
 
 .famille span:first-child i{
-    width:16px;
-    height:16px;
-    top:24%;
-    left:28%;
+    top:29%;
+    left:32%;
     position:absolute;
     color: #0065FC;
 }
@@ -249,8 +247,9 @@ body{
     height:31px;
     margin-left:20px;
     cursor: pointer;
-  
 }
+
+
 .coeur span:first-child{
      height:29px;
      width:29px;
@@ -267,10 +266,8 @@ body{
 
 
 .coeur span:first-child i{
-    width:16px;
-    height:16px;
-    top:24%;
-    left:23%;
+    top:32%;
+    left:27%;
     position:absolute;
     color: #0065FC;
 }
@@ -321,10 +318,8 @@ body{
 
 
 .animaux span:first-child i{
-    width:16px;
-    height:16px;
-    top:20%;
-    left:20%;
+    top:24%;
+    left:25%;
     position:absolute;
     color: #0065FC;
 }
@@ -353,13 +348,16 @@ body{
    background: #0065FC;
 }
 
-.icone_info:last-child{
+.icone_info p{
     font-size: 0.8rem;
     font-weight: bold;
     color: grey;
 }
 
-
+.icone_info span{
+    display: inline-block;
+    margin: -0.8%;
+}
 
 /*SECTION 2 HEBERGEMENT A MARSEILLE*/
 .section_hebergements{
