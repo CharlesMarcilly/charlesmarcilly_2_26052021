@@ -88,7 +88,6 @@ body{
     border-color: #F2F2F2;
     padding-left: 10px;
 }
-
 #btn_recherche{
     height: 35px;
     background: #0065FC;
@@ -98,7 +97,6 @@ body{
     padding: 10px;
     cursor: pointer;
 }
-
 #block_barre span{
     height: 35px;
     background: #F2F2F2;
@@ -364,20 +362,20 @@ body{
     display: flex;
     width:100%;
 }
-
-
 .section_hebergements ul{
     list-style-type: none;
     background: #F2F2F2;
     padding-top: 10px;
+    padding-bottom: 20px;
     padding-bottom: 4px;
     border-radius: 17px;
     padding-left:23px;
 }
 
-
 .section_hebergements li{
     display: inline-block;
+    width: 250px;;
+    height: 170px;
     width: calc(100%/3.2);
     margin-right: 10px;
     padding-left:3px;
@@ -391,8 +389,10 @@ body{
 }
 
 #img_section_2{
+    width: 244px;
     width: 100%;
     height: 100px;
+    border-radius: 15px 15px 0 0;
     border-radius: 13px 13px 0 0;
     object-fit: cover;
 }
@@ -438,13 +438,16 @@ body{
 }
 
 
+.aside h1 i{
+    padding-left: 80px;       /*ICONE STAT*/
+}
+
 
 #img_aside{
     width: 110px;
     height: 110px;
     border-radius: 15px 0px 0px 15px;
 }
-
 .aside span li{
     display: flex;
     width: 248px;
@@ -452,13 +455,9 @@ body{
     padding-right: 15px;
     background-color: white;
 }
-
-
 .titre_para_etoile{
     padding-top: 8px;
 }
-
-
 
 /*ETOILES HERBERGEMENTS*/
 .etoile_hebergements{
@@ -517,25 +516,26 @@ body{
 
 /*SECTION ACTIVITES*/
 .section_activites{
-    display: flex;
+    width: 100%;
 }
 
 
 .section_activites ul{
-    width: 100%;
-    padding-left: 0%;
-    margin: 0%;
+    width: 101.5%;
+    padding: 0%;
+    margin: 0px;
 }
 
 .section_activites li{
-    width: 23.7%;
+    width: 23.2%;
     border-radius: 17px;
     background-color: white;
     display: inline-block;
     box-shadow: 1px 1px 4px 4px #F2F2F2;
-    margin-right: 10px;
+    margin-right: 16.7px;
     cursor: pointer;
 }
+
 
 
 .section_activites h3{
@@ -549,12 +549,12 @@ body{
 
 #pomegue{
     position: absolute;
-    width: 23.2%;
+    width: 22.9%;
 }
 
 #notre_dame{
     position: absolute;
-    width: 23.2%;
+    width: 22.9%;
 }
 
 
@@ -569,7 +569,6 @@ body{
 .section_activites img{
     border-radius: 17px 17px 0 0;
 }
-
 
 
 
@@ -603,7 +602,7 @@ body{
 
 #img_longchamp{
     width: 100%;
-    height: 150px;
+    height: 145px;
     object-fit: cover;
 }
 

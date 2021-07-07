@@ -1,11 +1,4 @@
 @media only screen and (max-width: 767px){
-   #bloc_page{
-        max-width: 767px;
-        margin: 0 auto;
-        padding: 0 15px 0 15px;
-        overflow-x:hidden;
-    }
-
     /*HEADER*/
     header{
         display: inline-block;
@@ -60,30 +53,29 @@ section h1{
 }
 
 /*BARRE DE RECHERCHE*/
+
+    #block_barre{
+        margin-top:30px;
+
+    }
     #search{
-        height:35px;
-        font-weight: bold;
-        outline: none;
-        border: solid 1.5px;
-        border-color: #F2F2F2;
-        padding-left: 10px;
-        border-right: 0px;
+        width:90%;
+        display:inline-block;
+    }
+  
+    #button-search{
+       border-radius:11px;
+       transform:translate3d(-5px, 0, 0);
+  
     }
 
-    
-    #block_barre span{
-        height: 35px;
-        background: #F2F2F2;
-        border-radius: 11px 0px 0px 11px;
-        padding: 10px;
-        text-align:center;
-        padding-right: 9px;
-    }
-
-
-    #btn_recherche{
+    #button-search span{
         display:none;
-   }
+    }
+
+    #button-search i{
+        display:inline-block;
+    }
 
 
    .icone_recherche{
