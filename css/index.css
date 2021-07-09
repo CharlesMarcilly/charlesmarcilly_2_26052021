@@ -158,8 +158,8 @@ body{
 
 
 .filtres_eco span:first-child i{
-    top:25%;
-    left:17%;
+    top:30%;
+    left:22%;
     position:absolute;
     color: #0065FC;
 }
@@ -212,8 +212,8 @@ body{
 
 
 .famille span:first-child i{
-    top:25%;
-    left:30%;
+    top:30%;
+    left:34%;
     position:absolute;
     color: #0065FC;
 }
@@ -263,8 +263,8 @@ body{
 
 
 .coeur span:first-child i{
-    top:28%;
-    left:22%;
+    top:32%;
+    left:27%;
     position:absolute;
     color: #0065FC;
 }
@@ -315,8 +315,8 @@ body{
 
 
 .animaux span:first-child i{
-    top:21%;
-    left:21%;
+    top:26%;
+    left:25%;
     position:absolute;
     color: #0065FC;
 }
