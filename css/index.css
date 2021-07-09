@@ -88,7 +88,7 @@ body{
     border-color: #F2F2F2;
     padding-left: 10px;
 }
-#btn_recherche{
+#button-search{
     height: 35px;
     background: #0065FC;
     border-radius: 0 11px 11px 0px;
@@ -96,8 +96,13 @@ body{
     color: white;
     padding: 10px;
     cursor: pointer;
+    font-size:0.85rem;
 }
-#block_barre span{
+
+#button-search i{
+    display:none;
+}
+#block_barre #icon-search{
     height: 35px;
     background: #F2F2F2;
     border-radius: 11px 0px 0px 11px;
@@ -105,12 +110,6 @@ body{
     text-align:center;
     padding-right: 9px;
 }
-
-.icone_recherche{
-    display: none;
-}
-
-
 
 
 ::placeholder{
@@ -159,8 +158,8 @@ body{
 
 
 .filtres_eco span:first-child i{
-    top:29%;
-    left:22%;
+    top:25%;
+    left:17%;
     position:absolute;
     color: #0065FC;
 }
@@ -213,8 +212,8 @@ body{
 
 
 .famille span:first-child i{
-    top:29%;
-    left:32%;
+    top:25%;
+    left:30%;
     position:absolute;
     color: #0065FC;
 }
@@ -264,8 +263,8 @@ body{
 
 
 .coeur span:first-child i{
-    top:32%;
-    left:27%;
+    top:28%;
+    left:22%;
     position:absolute;
     color: #0065FC;
 }
@@ -316,8 +315,8 @@ body{
 
 
 .animaux span:first-child i{
-    top:24%;
-    left:25%;
+    top:21%;
+    left:21%;
     position:absolute;
     color: #0065FC;
 }
