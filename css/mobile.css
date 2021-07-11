@@ -10,7 +10,8 @@
             display: flex;
             justify-content: space-between;
             width: 24%;
-            height: 50px;
+            height: 45px;
+            padding-top: 7px;
         }
     
         .menu {
@@ -21,11 +22,10 @@
         #register {
             color: #0065FC;
             font-weight: bold;
-            padding: 0.5rem;
-            margin: 0 0 0 1.5rem;
+            margin: 0rem 0rem 0 1.5rem;
             float: right;
             position: relative;
-            bottom: 4.5rem;
+            top: -4.4rem;
             right: 1rem;
         }
     
@@ -35,9 +35,17 @@
         }
     
         .navigationBar {
-            display: flex !important;
+            display: flex;
             justify-content: space-between;
             margin: -4.5%;
+        }
+
+        #lodging{
+            margin-left:30px;
+        }
+
+        #activities{
+            margin-left: 30px;
         }
 
     
@@ -55,15 +63,15 @@
         }
 
         .navigationLinks{
-            width: 50% !important;
+            width: 50%;
             margin: initial;
-            display:inline-block !important;
+            display:inline-block;
 
         }
 
         .navigationLinks:hover {
             border-bottom: 0.1rem solid #0065FC !important;
-            border-top: none !important;
+            border-top: none;
             font-weight: bold;
         }
     
@@ -197,6 +205,7 @@
         border-radius:16px;
         height:31px;
         margin-left: 0px;
+        margin-top: 3px;
         cursor: pointer;
     }
 
@@ -218,7 +227,7 @@
         height:31px;
         cursor: pointer;
         position: absolute;
-        margin-top: 50px !important;
+        margin-top: 45px !important;
         left: -4px;
     }
 
@@ -231,7 +240,7 @@
     }
 
     .icone_info{
-        margin-top: 25px;
+        margin-top: 35px;
         margin-bottom: 20px;
     }
 
