@@ -1,58 +1,77 @@
 @media only screen and (max-width: 767px){
         /*HEADER*/
-        header{
+        .header {
+            flex-direction: column;
+            margin: 0 0 0 0;
+            padding: 0;
+        }
+    
+        #reserviaLogo {
+            display: flex;
+            justify-content: space-between;
+            width: 24%;
+            height: 50px;
+        }
+    
+        .menu {
             display: inline-block;
+            font-weight: 500;
         }
-
-        header nav ul{
-            margin-top: 15px;
+    
+        #register {
+            color: #0065FC;
+            font-weight: bold;
+            padding: 0.5rem;
+            margin: 0 0 0 1.5rem;
+            float: right;
             position: relative;
-            margin-bottom: 35px;
+            bottom: 4.5rem;
+            right: 1rem;
+        }
+    
+        #register:hover {
+            background-color: #DEEBFF;
+            border-radius: 10rem;
+        }
+    
+        .navigationBar {
+            display: flex !important;
+            justify-content: space-between;
+            margin: -4.5%;
         }
 
-        header nav ul li{
-            position: absolute;
-        }
-        
-        #sinscrire{
-            left: 160px;
-            bottom: 31.1px;
-            padding-bottom: 5px;
-        
-        }
-
-        #hebergements{
-            margin-left: -70px;
-            padding-top: 0px;
-        }
-
-        #activites{
-            margin-left: 130px;
-            padding-top: 0px;
-        }
-        
-
-        header ul *:not(:last-of-type){
-        
-            width: 199.7px;
-            left: 22px;
-            padding-bottom: 5px;
-            border-bottom: solid #F2F2F2;
-        }
-
-        #hebergements:hover{
-            border-bottom: 2px solid #0065FC;
+    
+        #lodgingLink {
             border-top: none;
+            padding: 1.9rem 1rem 0 1rem;
+            border-bottom: 0.1rem solid #F2F2F2;
+            display:inline-block;
         }
-            #activites:hover{
-            border-bottom: 2px solid #0065FC;
+
+        #activitiesLink {
             border-top: none;
+            padding: 1.9rem 1rem 0 1rem;
+            border-bottom: 0.1rem solid #F2F2F2;
         }
+
+        .navigationLinks{
+            width: 50% !important;
+            margin: initial;
+            display:inline-block !important;
+
+        }
+
+        .navigationLinks:hover {
+            border-bottom: 0.1rem solid #0065FC !important;
+            border-top: none !important;
+            font-weight: bold;
+        }
+    
 
 
 
     /*BARRE DE RECHERCHE*/
-    section h1{
+    #section h1{
         font-size: 0.9rem;
         font-weight: bold;
     }
@@ -116,12 +135,13 @@
     }
 
 
-
-    /*FILTRES*/
-    #filtres span{
-        display: inline-block;
+    /* FILTRES */
+    #mot_filtres{
+        transform:translate3d(0,-20px,0);
     }
-
+    #filtres{
+        margin-left:initial;
+    }
 
     /* ECONOMIQUE */
     .filtres_eco{
@@ -139,16 +159,29 @@
 
 
     .filtres_eco span:first-child i{
-        top:26%;
-        left:15%;
+        top:25%;
+        left:16%;
         position:absolute;
         color: #0065FC;
     }
 
 
     /* FAMILIAL */
+    .famille{
+        padding:0px 14px 10px 0px;
+        border:2px solid #F2F2F2;
+        border-left: none;
+        display:inline-block;
+        border-radius:16px;
+        height:31px;
+        margin-left:10px;
+        margin-right: 10px;
+        cursor: pointer; 
+    }
+
+    
     .famille span:first-child i{
-        top:27%;
+        top:25%;
         left:29%;
         position:absolute;
         color: #0065FC;
@@ -164,13 +197,12 @@
         border-radius:16px;
         height:31px;
         margin-left: 0px;
-        margin-bottom: 10px;
         cursor: pointer;
     }
 
     .coeur span:first-child i{
-        top:27%;
-        left:22%;
+        top:26.5%;
+        left:22.5%;
         position:absolute;
         color: #0065FC;
     }
@@ -181,22 +213,27 @@
         padding:0px 14px 10px 0px;
         border:2px solid #F2F2F2;
         border-left: none;
-        display: block;
+        display:inline-block;
         border-radius:16px;
         height:31px;
-        margin-left:0px;
-        margin-right: 161.9px;
         cursor: pointer;
+        position: absolute;
+        margin-top: 50px !important;
+        left: -4px;
     }
 
 
     .animaux span:first-child i{
-        top:23%;
+        top:20%;
         left:20%;
         position:absolute;
         color: #0065FC;
     }
 
+    .icone_info{
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
 
 
     /*ASIDE*/
@@ -206,7 +243,6 @@
         margin-left: 4%;
         padding-right: 10px;
     }
-
 
     .aside{
         width: 108.5%;
@@ -293,7 +329,7 @@
 
         #affiche_plus{
             padding-left: 0%;
-            margin-top: 20px;
+            margin-top:20px !important;
         }
 
     
@@ -337,7 +373,7 @@
 
 
     /*IMG SECTION ACTIVITE*/
-    #img_port_calanque{
+    .img_port_calanque{
         width: 100%;
         height: 130px;
         object-fit: cover;

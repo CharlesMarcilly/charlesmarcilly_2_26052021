@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    box-sizing: border-box !important;
 }
 
 body{
@@ -16,55 +16,59 @@ body{
 }
 
 /*HEADER*/
-    header{
-        display: flex;
-        
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+#reserviaLogo{
+        width:93px;
+        height:50px
     }
 
-    #logo{
-        width:73px;
-        height:50px;
-    }
 
-    nav{
-        width:100%;
-        display:flex;
-        justify-content:flex-end;
-    }
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
 
-    header nav ul{
-       list-style:none;
-       display:inline-block;
-       margin-top:0;
+.navigationBar {
+    margin: 0;
+    padding-top: 1rem;
+}
 
-    }
+.navigationLinks {
+    margin-right: 2rem;
+    text-decoration: none;
+    color: black;
+}
 
-    header nav ul li{
-        display:inline-block;
-        margin-left:30px;
-        padding:15px;
-        font-size:0.85rem;
-        border-top:2px solid transparent;
+.navigationLinks:hover {
+    border-top: 0.1rem solid #0065FC;
+    font-weight: bold;
+}
 
-    }
+#lodgingLink {
+    padding: 1.9rem 1rem 0 1rem;
+}
 
-    header nav ul li:hover{
-        border-top: 2px solid #0065FC;  
-    }
+#activitiesLink {
+    padding: 1.9rem 1rem 0 1rem;
+}
 
-    header nav ul li a{
-        text-decoration:none;
-        color:#000000;
+#register {
+    text-decoration: none;
+    color: #0065FC;
+    font-weight: bold;
+    padding: 1rem;
+}
 
-    }
+#register:hover {
+    background-color: #DEEBFF;
+    border-radius: 10rem;
+}
 
-    header nav ul li:last-child a{
-
-        color:#0065Fc;
-        font-weight:bold;
-    }
-
-    
 
     /*SECTION TITRE ET BARRE DE RECHERCHE*/
   section h1{
@@ -73,11 +77,11 @@ body{
 }
 
 #premier_para{
-    margin-top: -5px;
+    margin-top: -10px;
+    margin-bottom: 10px;
     padding-left: 0%;
     font-size: 0.8rem;
 }
-
 
 
 #search{
@@ -127,8 +131,13 @@ body{
 #mot_filtres{
     font-size: 0.8rem;
     font-weight: bold;
+    position:absolute;
+    margin-top: 10px;
 }
 
+#filtres{
+    margin-left: 40px;
+}
 
 
 .filtres_eco{
@@ -158,8 +167,8 @@ body{
 
 
 .filtres_eco span:first-child i{
-    top:30%;
-    left:22%;
+    top:24%;
+    left:18%;
     position:absolute;
     color: #0065FC;
 }
@@ -212,8 +221,8 @@ body{
 
 
 .famille span:first-child i{
-    top:30%;
-    left:34%;
+    top:25%;
+    left:30%;
     position:absolute;
     color: #0065FC;
 }
@@ -263,8 +272,8 @@ body{
 
 
 .coeur span:first-child i{
-    top:32%;
-    left:27%;
+    top:29%;
+    left:23%;
     position:absolute;
     color: #0065FC;
 }
@@ -315,8 +324,8 @@ body{
 
 
 .animaux span:first-child i{
-    top:26%;
-    left:25%;
+    top:20%;
+    left:20%;
     position:absolute;
     color: #0065FC;
 }
@@ -339,6 +348,9 @@ body{
 
 
 /*APRES FILTRES*/
+.icone_info{
+    margin-left: 10px;
+}
 .icone_info i{
    border-radius: 18px;
    color: white;
@@ -373,7 +385,6 @@ body{
 
 .section_hebergements li{
     display: inline-block;
-    width: 250px;;
     height: 170px;
     width: calc(100%/3.2);
     margin-right: 10px;
@@ -387,7 +398,19 @@ body{
     cursor:pointer;
 }
 
-#img_section_2{
+#ancre_hebergement, #affiche_plus, #titre_aside, #ancre_activite{
+    display:block !important;
+    height:initial !important;
+    padding:initial !important;
+    border-radius:initial !important;
+    margin-top:15px !important;
+    background-color:initial !important;
+    font-weight:bold !important;
+    cursor:initial !important;
+    box-shadow:initial !important;
+
+}
+#img_section_2, #img_section_2_2, #img_section_2_3, #img_section_2_4, #img_section_2_5, #img_section_2_6{
     width: 244px;
     width: 100%;
     height: 100px;
@@ -409,14 +432,21 @@ body{
 }
 
 #affiche_plus{
-    font-weight: bold;
+    font-size:0.9rem;
     cursor: pointer;
+    margin-top:-7px !important;
+    box-shadow:initial !important;
 }
 
 
 /*ASIDE*/
-.aside h1 i{
-    padding-left: 80px;       /*ICONE STAT*/
+#titre_aside{
+  position:relative;
+}
+
+#titre_aside i{
+    position:absolute;
+    right:5px;
 }
 
 
@@ -432,6 +462,7 @@ body{
 }
 
 .aside ul{
+    height: 100%;
     padding-left: 10px;
     padding-right: 3px;
 }
@@ -442,12 +473,12 @@ body{
 }
 
 
-#img_aside{
+#img_aside, #img_aside_2, #img_aside_3{
     width: 110px;
     height: 110px;
     border-radius: 15px 0px 0px 15px;
 }
-.aside span li{
+.aside ul li{
     display: flex;
     width: 248px;
     height: 115.1px;
@@ -518,6 +549,10 @@ body{
     width: 100%;
 }
 
+#ancre_activite{
+    box-shadow:initial !important;
+    margin-bottom:15px;
+}
 
 .section_activites ul{
     width: 101.5%;
@@ -572,7 +607,7 @@ body{
 
 
 /*IMG SECTION ACTIVITE*/
-#img_port_calanque{
+.img_port_calanque{
     width: 100%;
     height: 350px;
     object-fit: cover;
@@ -618,6 +653,13 @@ body{
 .footer ul{
     margin-right: 20%;
     padding-left: 15px;
+    list-style: none;
+}
+
+.footer_li_title{
+    font-weight:bold;
+    margin-bottom:15px;
+    font-size:1rem;
 }
 
 footer li{

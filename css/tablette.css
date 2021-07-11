@@ -54,24 +54,17 @@
 
     /*HEBERGEMENTS*/
         .section_hebergements{
-            display: flex;
-            flex-direction: column;
+            display: inline;
+
         }
 
         .section_hebergements ul li{
-            margin-right: 25px;
+            margin-right: 10px;
         }
 
         .section_hebergements ul Li{
-            width: 330px;
-            height: 230px;
+            height: 180px;
                 }
-
-        #img_section_2{
-            width: 324px;
-            height: 150px;
-        }
-
 
 
         /*ASIDE*/
@@ -139,7 +132,7 @@
 
 
         /* IMAGES ACTIVITES */
-        #img_port_calanque{
+        .img_port_calanque{
             width: 100%;
             height: 140px;
         }
